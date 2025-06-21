@@ -81,7 +81,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("✍️ Handwritten Digit Image Generator (PyTorch)")
+st.title("Handwritten Digit Image Generator (PyTorch)")
 st.write("Generate synthetic MNIST-like images using your trained PyTorch model.")
 
 if generator is None:
