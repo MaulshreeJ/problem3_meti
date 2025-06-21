@@ -1,0 +1,2 @@
+[compatibility]
+pythonVersion = "3.9" # Or "3.10" or "3.11" - 3.9 is generally safe
