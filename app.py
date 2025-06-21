@@ -81,8 +81,8 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("Handwritten Digit Image Generator (PyTorch)")
-st.write("Generate synthetic MNIST-like images using your trained PyTorch model.")
+st.title("Handwritten Digit Image Generator")
+st.write("Generate synthetic MNIST-like images using your trained model.")
 
 if generator is None:
     st.warning("Generator model could not be loaded. Please check the model path and ensure it's saved correctly.")
